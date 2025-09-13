@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-20 bg-black/50 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
         <img 
-          src="../src/assets/bitcoin_hollywood_logo.svg" 
+          src="/bitcoin_hollywood_logo.svg" 
           alt="Bitcoin Hollywood Logo" 
           className="h-16 w-auto" 
         />

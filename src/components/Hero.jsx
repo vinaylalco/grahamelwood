@@ -1,6 +1,6 @@
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
 
-const bgImage = '../src/assets/BitcoinHollwood_resize.png';
+const bgImage = '/BitcoinHollwood_resize.png';
 
 export default function Hero() {
   const { scrollY } = useViewportScroll();

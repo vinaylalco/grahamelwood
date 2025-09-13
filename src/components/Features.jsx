@@ -3,31 +3,31 @@ import { motion, useViewportScroll, useTransform } from 'framer-motion';
 const features = [
   {
     image:
-      '../src/assets/FeatureFilms.png',
+      '/FeatureFilms.png',
     title: 'Feature Films',
     description: 'Drama, Comedy, Documentary, Action, Animation.',
   },
   {
     image:
-      '../src/assets/ComedyShow.png',
+      '/ComedyShow.png',
     title: 'Stand Up Comedy',
     description: 'Stand up comedy specials taped in front of a live audience.',
   },
   {
     image:
-      '../src/assets/tvShows.png',
+      '/tvShows.png',
     title: 'TV Shows',
     description: 'Drama, Comedy, Documentary, Action, Animation.',
   },
   {
     image:
-      '../src/assets/LiveEvents.png',
+      '/LiveEvents.png',
     title: 'Live Events',
     description: 'Live Comedy Shows, Podcasts, Gameshows.',
   },
   {
     image:
-      '../src/assets/GameShows.png',
+      '/GameShows.png',
     title: 'Game Shows',
     description: 'Old School gameshows with a new twist.',
   }
