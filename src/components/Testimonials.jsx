@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 
 const testimonials = [
-  { quote: 'This product changed my life.', name: 'Alice' },
-  { quote: 'A must-have for professionals.', name: 'Bob' },
-  { quote: 'Incredible experience and support.', name: 'Carol' },
+  { quote: "First time in my Hollywood film making career I've had transparent residuals.", name: 'Chris' },
+  { quote: 'Indie film makers are finally getting paid fairly!.', name: 'Kimberely' },
+  { quote: 'I love supporting film makers, not billionaires.', name: 'Tim' },
+  { quote: '[Bitcoin] allows any two willing parties to transact directly with each other without the need for a trusted third party.', name: 'Bitcoin Whitepaper, 2008' }
 ];
 
 export default function Testimonials() {

@@ -3,22 +3,34 @@ import { motion, useViewportScroll, useTransform } from 'framer-motion';
 const features = [
   {
     image:
-      'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=600&q=80',
-    title: 'Feature One',
-    description: 'An amazing feature that does cool things.',
+      '../src/assets/FeatureFilms.png',
+    title: 'Feature Films',
+    description: 'Drama, Comedy, Documentary, Action, Animation.',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=600&q=80',
-    title: 'Feature Two',
-    description: 'Another incredible feature for your users.',
+      '../src/assets/ComedyShow.png',
+    title: 'Stand Up Comedy',
+    description: 'Stand up comedy specials taped in front of a live audience.',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80',
-    title: 'Feature Three',
-    description: 'This feature will blow your mind.',
+      '../src/assets/tvShows.png',
+    title: 'TV Shows',
+    description: 'Drama, Comedy, Documentary, Action, Animation.',
   },
+  {
+    image:
+      '../src/assets/LiveEvents.png',
+    title: 'Live Events',
+    description: 'Live Comedy Shows, Podcasts, Gameshows.',
+  },
+  {
+    image:
+      '../src/assets/GameShows.png',
+    title: 'Game Shows',
+    description: 'Old School gameshows with a new twist.',
+  }
 ];
 
 export default function Features() {

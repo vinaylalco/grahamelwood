@@ -1,7 +1,6 @@
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
 
-const bgImage =
-  'https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=1400&q=80';
+const bgImage = '../src/assets/BitcoinHollwood_resize.png';
 
 export default function Hero() {
   const { scrollY } = useViewportScroll();
@@ -15,14 +14,31 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 text-center space-y-4 px-4">
-        <h1 className="text-5xl md:text-7xl font-bold">Cinematic Showcase</h1>
-        <p className="text-xl md:text-2xl">Experience projects in an Apple TV style.</p>
+        <h1 className="text-5xl md:text-7xl font-bold">Bitcoin Hollwood</h1>
+        <h2 className="text-xl md:text-xl">Entertain and educate.</h2>
+        <p className="text-xl md:text-xl">Fair and transparent pay for content creators with Bitcoin.</p>
+        <p className="text-sm md:text-xl">Scripted and unscripted entertainment with Bitcoin themes.</p>
         <a
-          href="/signup"
-          className="inline-block px-8 py-3 bg-white text-black font-semibold rounded hover:bg-gray-300 transition-colors"
+          href="#features"
+          className="inline-block px-8 py-3 bg-white text-black font-semibold rounded hover:bg-gray-300 transition-colors m-3"
         >
-          Get Started
+          Learn More
         </a>
+
+        <a
+          href="#newsletter"
+          className="inline-block px-8 py-3 bg-white text-black font-semibold rounded hover:bg-gray-300 transition-colors m-3"
+        >
+          Newsletter
+        </a>
+
+        <a
+          href="#testimonials"
+          className="inline-block px-8 py-3 bg-white text-black font-semibold rounded hover:bg-gray-300 transition-colors m-3"
+        >
+          Testimonials
+        </a>
+
       </div>
     </section>
   );
