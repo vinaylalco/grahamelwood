@@ -6,8 +6,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
         <a href="/" className="text-xl font-bold">Logo</a>
         <div className="space-x-4">
-          <a href="/features" className="hover:underline">Features</a>
-          <a href="/signup" className="hover:underline">Sign Up</a>
+          <a href="#features" className="hover:underline">Features</a>
         </div>
       </div>
     </nav>

@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-black text-white antialiased;
+  @apply bg-black text-white antialiased font-medium;
+  font-family: 'Poppins', sans-serif;
 }
